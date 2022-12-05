@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+ list-style: none;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    background-color:#ffb703 ;
+    justify-content: space-around;
+}
+#nav1{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#nav2{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 580px;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+#nav3{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    width: 200px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.li1{
+    font-size: 2rem;
+}
+.li3{
+    font-size: 1.5rem;
+}
+a:hover{
+    color: azure;
+}
+main{
+    width: 100vw;
+}
+#main{
+    height: 450px;
+    margin-top: 10px;
+    background-image: url('../images/nav3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border: 2px solid black;
+   
+
+}
+#main1{
+    margin: 150px;
+    margin-left: 28%;
+}
+.m2{
+    margin-top: 20px;
+}
+#button1{
+    border: 2px solid black;
+    margin-left: 15%;
+    font-size: 1.2rem;
+}
+#h1{
+    font-size: 2.3rem;
+    text-shadow: 2px 2px 4px #ffb703;
+}
+.navi1
+{
+   margin-right: 10px;
+}
+.page2
+{
+    animation-name: example;
+    padding:10px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+    background-color: #ffd6a5;
+    box-shadow: 3px 4px 4px rgb(222, 214, 199);
+}
+.before_page2
+{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.navi2
+{
+    height: 30px;
+    width:30px;
+}
+.page2:hover{
+    border: 4px solid black; 
+}
+#p1
+{
+    margin-left:40%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 45.5%;
+}
+.para
+{
+    color: blue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+.profile
+{
+    height:100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.heading_page2{
+    font-size: 38px;
+    font-style: italic;
+    padding: 3px;
+    text-align: center;
+    padding-top: 0px;
+}
+#foot{
+    margin-top: 10px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: #dee2e6;
+}
+#icon{
+    display: flex;
+}
+ .cards
+{
+    width:380px;
+    padding: 5px;
+    height:270px;
+}
+#card1
+{
+    margin-left: 40px;
+}
+.card
+{
+    height: 430px;
+    border: 1px solid black;
+    border-radius: 5px ;
+    background-color:rgba(128, 128, 128, 0.089);
+    margin-left: 2px;
+    box-shadow: 2px 2px 3px 4px rgb(138, 134, 134);
+}
+.c2
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 7px;
+}
+.c3
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 180px;
+}
+span{
+    width: 20px;
+    color: orangered;
+}
+.page2
+{
+    font-size:60px;
+    text-align: center;
+}
+button
+{
+    margin-left: 40%;
+    width: 100px;
+    height: 30px;
+    color: orangered;
+    font-style: italic;
+}
+button:hover{
+    color: black;
+    background-color:orangered;
+    border-radius: 6px;
+}
+.page3
+{
+    display: flex;
+}
+.h:hover{
+color: #ffb703;
+}
